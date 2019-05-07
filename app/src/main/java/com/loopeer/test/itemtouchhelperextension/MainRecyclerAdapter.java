@@ -150,18 +150,6 @@ public class MainRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
         }
     }
 
-
-    class ItemViewHolderWithRecyclerWidth extends ItemBaseViewHolder {
-
-        View mActionViewDelete;
-
-        public ItemViewHolderWithRecyclerWidth(View itemView) {
-            super(itemView);
-            mActionViewDelete = itemView.findViewById(R.id.view_list_repo_action_delete);
-        }
-
-    }
-
     class ItemSwipeWithActionWidthViewHolder extends ItemBaseViewHolder implements Extension {
 
         View mActionViewDelete;
